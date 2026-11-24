@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sunvera Energy delivers premium solar panels, battery storage, inverters and complete renewable energy systems for homes and businesses.">
+  <meta name="theme-color" content="#071a2b">
+  <title>Sunvera Energy | Powering a Brighter, Greener Future</title>
+
+  <!-- Modern web font + icons. The site remains functional if these external resources are unavailable. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Sunvera Energy home">
+        <span class="brand-mark" aria-hidden="true">
+          <span class="sun-core"></span>
+          <span class="ray ray-1"></span><span class="ray ray-2"></span>
+          <span class="ray ray-3"></span><span class="ray ray-4"></span>
+          <span class="ray ray-5"></span><span class="ray ray-6"></span>
+        </span>
+        <span class="brand-text">
+          <strong>sunvera</strong>
+          <small>ENERGY</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" type="button"
+              aria-label="Open navigation menu" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav" aria-label="Primary navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#products" class="nav-link">Products</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact Us</a>
+        <a href="#contact" class="btn btn-nav">Get a Quote <i class="fa-solid fa-arrow-right"></i></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero section-dark" id="home">
+      <div class="hero-glow glow-one"></div>
+      <div class="hero-glow glow-two"></div>
+      <div class="hero-grid"></div>
+
+      <div class="container hero-inner">
+        <div class="hero-copy reveal">
+          <div class="eyebrow light"><span></span> Clean power. Smarter living.</div>
+          <h1>Powering a <em>brighter,</em> greener future.</h1>
+          <p class="hero-lead">
+            Premium solar energy systems designed to turn everyday sunlight into dependable,
+            affordable power for homes and businesses.
+          </p>
+          <div class="hero-actions">
+            <a href="#products" class="btn btn-primary">Explore Our Products <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#contact" class="btn btn-ghost">Contact Us <i class="fa-regular fa-message"></i></a>
+          </div>
+
+          <div class="hero-proof">
+            <div class="proof-item">
+              <strong><span class="counter" data-target="12">0</span>+</strong>
+              <span>Years of expertise</span>
+            </div>
+            <div class="proof-divider"></div>
+            <div class="proof-item">
+              <strong><span class="counter" data-target="4800">0</span>+</strong>
+              <span>Systems delivered</span>
+            </div>
+            <div class="proof-divider"></div>
+            <div class="proof-item">
+              <strong><span class="counter" data-target="98">0</span>%</strong>
+              <span>Customer satisfaction</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal reveal-delay">
+          <div class="sun-orb" aria-hidden="true">
+            <div class="orb-ring"></div>
+            <div class="orb-core"></div>
+          </div>
+
+          <div class="solar-panel-visual" aria-label="Decorative solar panel illustration" role="img">
+            <div class="panel-frame">
+              <div class="panel-cells">
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="floating-card savings-card">
+            <span class="mini-icon green"><i class="fa-solid fa-leaf"></i></span>
+            <div><small>Clean energy</small><strong>2.8 t CO₂</strong><small>offset / year</small></div>
+          </div>
+          <div class="floating-card energy-card">
+            <span class="mini-icon gold"><i class="fa-solid fa-bolt"></i></span>
+            <div><small>Today's output</small><strong>8.42 kWh</strong><small>and rising</small></div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue" aria-label="Scroll to learn more">
+        <span>Scroll to explore</span><i class="fa-solid fa-arrow-down"></i>
+      </a>
+    </section>
+
+    <!-- Trust strip -->
+    <section class="trust-strip" aria-label="Company highlights">
+      <div class="container trust-grid">
+        <div><i class="fa-solid fa-solar-panel"></i><span>Engineered for efficiency</span></div>
+        <div><i class="fa-solid fa-shield-halved"></i><span>Quality you can trust</span></div>
+        <div><i class="fa-solid fa-headset"></i><span>Human-first support</span></div>
+        <div><i class="fa-solid fa-recycle"></i><span>Built for a cleaner future</span></div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-heading split-heading reveal">
+          <div>
+            <div class="eyebrow"><span></span> Who we are</div>
+            <h2>Energy that works <em>for you.</em></h2>
+          </div>
+          <p>
+            Sunvera Energy makes the switch to renewable power simple. From first consultation
+            to installation and ongoing care, our team creates solar systems around how you live and work.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-story reveal">
+            <div class="image-card">
+              <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=82"
+                   alt="Solar panels installed on a modern building">
+              <div class="image-caption">
+                <span class="caption-icon"><i class="fa-solid fa-sun"></i></span>
+                <div><strong>Sunlight, intelligently captured.</strong><span>Designed around your energy goals.</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-content reveal reveal-delay">
+            <p class="lead-text">
+              We believe clean energy should feel <strong>practical, beautiful and accessible.</strong>
+              Our solutions combine dependable hardware, thoughtful system design and attentive service.
+            </p>
+            <p>
+              Whether you are powering a family home, a growing business or a larger facility,
+              we help you make a confident transition to solar while building a more resilient energy future.
+            </p>
+
+            <div class="feature-grid">
+              <article class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-leaf"></i></div>
+                <h3>Clean Energy</h3>
+                <p>Turn free sunlight into low-carbon electricity for everyday life.</p>
+              </article>
+              <article class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-gauge-high"></i></div>
+                <h3>High Efficiency</h3>
+                <p>Smart system design helps every panel work harder for longer.</p>
+              </article>
+              <article class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-helmet-safety"></i></div>
+                <h3>Expert Installation</h3>
+                <p>Careful planning and professional installation from start to finish.</p>
+              </article>
+              <article class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-chart-line"></i></div>
+                <h3>Long-Term Savings</h3>
+                <p>Reduce grid dependence and take greater control of energy costs.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Industry -->
+    <section class="industry-section section-dark" id="industry">
+      <div class="container">
+        <div class="section-heading center-heading reveal">
+          <div class="eyebrow light"><span></span> The solar advantage</div>
+          <h2>A cleaner grid starts <em>closer to home.</em></h2>
+          <p>From rooftop generation to intelligent storage, modern solar gives people and businesses more control over where their energy comes from.</p>
+        </div>
+
+        <div class="industry-layout">
+          <div class="industry-main-card reveal">
+            <div class="industry-art">
+              <div class="mountain mountain-back"></div>
+              <div class="mountain mountain-front"></div>
+              <div class="industry-sun"></div>
+              <div class="house">
+                <div class="house-roof"></div>
+                <div class="house-body"><span class="window"></span><span class="door"></span></div>
+                <div class="roof-panel"></div>
+              </div>
+              <div class="energy-line line-a"></div>
+              <div class="energy-line line-b"></div>
+              <div class="energy-line line-c"></div>
+            </div>
+            <div class="industry-card-content">
+              <span class="pill">Solar + storage</span>
+              <h3>Build your own energy ecosystem.</h3>
+              <p>Pair generation, storage and smart monitoring to make your energy use more predictable and resilient.</p>
+              <a href="#contact" class="text-link">Talk to a solar specialist <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="industry-side">
+            <article class="industry-item reveal">
+              <span class="industry-number">01</span>
+              <div><i class="fa-solid fa-house-chimney"></i><h3>Residential</h3><p>Right-sized rooftop systems for comfortable, energy-conscious homes.</p></div>
+            </article>
+            <article class="industry-item reveal reveal-delay">
+              <span class="industry-number">02</span>
+              <div><i class="fa-solid fa-building"></i><h3>Commercial</h3><p>Smart generation for offices, retail, hospitality and growing enterprises.</p></div>
+            </article>
+            <article class="industry-item reveal reveal-delay-2">
+              <span class="industry-number">03</span>
+              <div><i class="fa-solid fa-industry"></i><h3>Industrial</h3><p>Scalable energy systems built around operational and sustainability goals.</p></div>
+            </article>
+          </div>
+        </div>
+
+        <div class="impact-stats reveal">
+          <div><strong><span class="counter" data-target="18">0</span> MW</strong><span>Installed capacity</span></div>
+          <div><strong><span class="counter" data-target="9200">0</span> t</strong><span>CO₂ avoided annually</span></div>
+          <div><strong><span class="counter" data-target="24">0</span>/7</strong><span>System monitoring</span></div>
+          <div><strong><span class="counter" data-target="25">0</span> yrs</strong><span>Panel performance*</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section class="section products-section" id="products">
+      <div class="container">
+        <div class="section-heading split-heading reveal">
+          <div>
+            <div class="eyebrow"><span></span> Our solutions</div>
+            <h2>Everything you need to <em>go solar.</em></h2>
+          </div>
+          <p>High-quality components, matched and configured as a complete system so your solar investment works beautifully together.</p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card reveal">
+            <div class="product-visual solar-visual">
+              <span class="product-badge">Most popular</span>
+              <div class="mini-panel">
+                <div></div><div></div><div></div><div></div><div></div><div></div>
+              </div>
+              <i class="fa-solid fa-sun visual-sun"></i>
+            </div>
+            <div class="product-content">
+              <div class="product-icon"><i class="fa-solid fa-solar-panel"></i></div>
+              <h3>Solar Panels</h3>
+              <p>High-output photovoltaic modules designed for dependable generation in real-world conditions.</p>
+              <ul><li><i class="fa-solid fa-check"></i> High conversion efficiency</li><li><i class="fa-solid fa-check"></i> Weather-resistant build</li><li><i class="fa-solid fa-check"></i> Long performance life</li></ul>
+              <a href="#contact" class="product-link">Get a quote <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="product-card reveal reveal-delay">
+            <div class="product-visual inverter-visual">
+              <span class="product-badge">Smart tech</span>
+              <div class="inverter-device"><span class="device-screen">98<span>%</span></span><span class="device-light"></span></div>
+              <i class="fa-solid fa-wave-square visual-wave"></i>
+            </div>
+            <div class="product-content">
+              <div class="product-icon"><i class="fa-solid fa-microchip"></i></div>
+              <h3>Solar Inverters</h3>
+              <p>Intelligent power conversion that keeps your solar electricity flowing efficiently.</p>
+              <ul><li><i class="fa-solid fa-check"></i> Real-time monitoring</li><li><i class="fa-solid fa-check"></i> Grid-ready technology</li><li><i class="fa-solid fa-check"></i> Quiet operation</li></ul>
+              <a href="#contact" class="product-link">Get a quote <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="product-card reveal reveal-delay-2">
+            <div class="product-visual battery-visual">
+              <span class="product-badge">Energy storage</span>
+              <div class="battery-unit"><div class="battery-top"></div><div class="battery-level"></div><i class="fa-solid fa-bolt"></i></div>
+              <span class="battery-dot dot-1"></span><span class="battery-dot dot-2"></span><span class="battery-dot dot-3"></span>
+            </div>
+            <div class="product-content">
+              <div class="product-icon"><i class="fa-solid fa-battery-three-quarters"></i></div>
+              <h3>Solar Batteries</h3>
+              <p>Store excess solar power and use more of your own clean energy when you need it.</p>
+              <ul><li><i class="fa-solid fa-check"></i> Backup-ready</li><li><i class="fa-solid fa-check"></i> Intelligent charge control</li><li><i class="fa-solid fa-check"></i> Expandable storage</li></ul>
+              <a href="#contact" class="product-link">Get a quote <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-visual heater-visual">
+              <span class="product-badge">Hot water</span>
+              <div class="heater-tank"><span></span><span></span><span></span></div>
+              <div class="heater-panel"><i class="fa-solid fa-sun"></i></div>
+            </div>
+            <div class="product-content">
+              <div class="product-icon"><i class="fa-solid fa-temperature-half"></i></div>
+              <h3>Solar Water Heaters</h3>
+              <p>Harness sunlight for hot water while reducing reliance on conventional heating.</p>
+              <ul><li><i class="fa-solid fa-check"></i> Energy efficient</li><li><i class="fa-solid fa-check"></i> Everyday reliability</li><li><i class="fa-solid fa-check"></i> Lower running costs</li></ul>
+              <a href="#contact" class="product-link">Get a quote <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="product-card product-wide reveal reveal-delay">
+            <div class="product-visual system-visual">
+              <span class="product-badge">Complete solution</span>
+              <div class="system-scene">
+                <div class="system-sun"></div>
+                <div class="system-house"><div class="system-roof"></div><div class="system-body"></div></div>
+                <div class="system-panel p1"></div><div class="system-panel p2"></div><div class="system-battery"></div>
+              </div>
+            </div>
+            <div class="product-content">
+              <div class="product-icon"><i class="fa-solid fa-solar-panel"></i></div>
+              <h3>Complete Solar Systems</h3>
+              <p>One coordinated system—from site assessment and design through installation, monitoring and aftercare.</p>
+              <ul><li><i class="fa-solid fa-check"></i> Custom system design</li><li><i class="fa-solid fa-check"></i> Professional installation</li><li><i class="fa-solid fa-check"></i> Ongoing support</li></ul>
+              <a href="#contact" class="product-link">Plan my system <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA band -->
+    <section class="cta-band">
+      <div class="cta-orb"></div>
+      <div class="container cta-inner reveal">
+        <div>
+          <div class="eyebrow light"><span></span> Ready when you are</div>
+          <h2>Let's make your energy <em>more independent.</em></h2>
+          <p>Tell us a little about your property and we'll help you explore the right solar solution.</p>
+        </div>
+        <a href="#contact" class="btn btn-primary light-btn">Get a Free Quote <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-heading center-heading reveal">
+          <div class="eyebrow"><span></span> Let's talk</div>
+          <h2>Your solar journey starts <em>here.</em></h2>
+          <p>Have a question, need a quote, or simply want to understand your options? Our team is ready to help.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <div class="contact-intro">
+              <span class="contact-number">01</span>
+              <h3>Connect with Sunvera</h3>
+              <p>We make it easy to get clear answers without the sales pressure.</p>
+            </div>
+
+            <a class="contact-item" href="mailto:hello@sunvera.energy">
+              <span class="contact-icon"><i class="fa-regular fa-envelope"></i></span>
+              <span><small>Email us</small><strong>hello@sunvera.energy</strong></span>
+            </a>
+            <a class="contact-item" href="tel:+919876543210">
+              <span class="contact-icon"><i class="fa-solid fa-phone"></i></span>
+              <span><small>Call us</small><strong>+91 98765 43210</strong></span>
+            </a>
+            <div class="contact-item">
+              <span class="contact-icon"><i class="fa-solid fa-location-dot"></i></span>
+              <span><small>Visit us</small><strong>123 Green Avenue, Solar City</strong></span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon"><i class="fa-regular fa-clock"></i></span>
+              <span><small>Business hours</small><strong>Mon–Sat · 9:00 AM–6:00 PM</strong></span>
+            </div>
+
+            <div class="social-row">
+              <span>Follow our journey</span>
+              <div>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-card reveal reveal-delay">
+            <div class="form-top">
+              <span class="pill">Free consultation</span>
+              <h3>Tell us about your project.</h3>
+              <p>Complete the form and our team will get back to you shortly.</p>
+            </div>
+
+            <form id="contactForm" novalidate>
+              <div class="form-row">
+                <label>
+                  <span>Name</span>
+                  <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" required>
+                  <small class="field-error" id="nameError"></small>
+                </label>
+                <label>
+                  <span>Email</span>
+                  <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+                  <small class="field-error" id="emailError"></small>
+                </label>
+              </div>
+              <label>
+                <span>Phone</span>
+                <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" autocomplete="tel" required>
+                <small class="field-error" id="phoneError"></small>
+              </label>
+              <label>
+                <span>Message</span>
+                <textarea id="message" name="message" rows="5" placeholder="Tell us about your property or energy needs..." required></textarea>
+                <small class="field-error" id="messageError"></small>
+              </label>
+              <button class="btn btn-primary submit-btn" type="submit">Send Enquiry <i class="fa-solid fa-paper-plane"></i></button>
+              <div class="form-message" id="formMessage" role="status" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand footer-logo" href="#home" aria-label="Sunvera Energy home">
+            <span class="brand-mark"><span class="sun-core"></span><span class="ray ray-1"></span><span class="ray ray-2"></span><span class="ray ray-3"></span><span class="ray ray-4"></span><span class="ray ray-5"></span><span class="ray ray-6"></span></span>
+            <span class="brand-text"><strong>sunvera</strong><small>ENERGY</small></span>
+          </a>
+          <p>Thoughtful solar systems for a cleaner, more resilient energy future.</p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <a href="#home">Home</a><a href="#products">Products</a><a href="#about">About Us</a><a href="#industry">Industry</a><a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Solutions</h4>
+          <a href="#products">Solar Panels</a><a href="#products">Solar Inverters</a><a href="#products">Solar Batteries</a><a href="#products">Water Heaters</a><a href="#products">Complete Systems</a>
+        </div>
+
+        <div class="footer-newsletter">
+          <h4>Stay in the sunlight.</h4>
+          <p>Get occasional clean-energy insights and company updates.</p>
+          <form id="newsletterForm" class="newsletter-form">
+            <label class="sr-only" for="newsletterEmail">Email address</label>
+            <input id="newsletterEmail" type="email" placeholder="Your email address" required>
+            <button type="submit" aria-label="Subscribe"><i class="fa-solid fa-arrow-right"></i></button>
+          </form>
+          <small id="newsletterMessage" aria-live="polite"></small>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© <span id="currentYear"></span> Sunvera Energy. All rights reserved.</span>
+        <div><a href="#" class="legal-link">Privacy Policy</a><a href="#" class="legal-link">Terms & Conditions</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
